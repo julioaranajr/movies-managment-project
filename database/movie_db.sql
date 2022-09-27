@@ -1,11 +1,11 @@
 #Create a new database 
-CREATE DATABASE movie_db;
+CREATE DATABASE data_movies?db;
 
 #Show all databases
 SHOW DATABASE;
 
 #Use our new database
-USE movie_db;
+USE data_movies_db;
 
 #Show existing tbl
 SHOW TABLES;
