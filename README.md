@@ -1,2 +1,7 @@
 # movies-managment-project
-Talent Academy Week 2 - Practice: Working with Databases
+Talent Academy 
+Working with: 
+-MySql
+-Flask
+-Jinja2 
+-Docker
