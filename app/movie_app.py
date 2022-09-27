@@ -12,11 +12,7 @@ app.config["MYSQL_DB"] = "data_movies_db"
 
 mysql = MySQL(app)
 
-#@app.route("/")
-#def hello_world():
-#    return "<p>Hello World!</p>"
-
-@app.route("/movies-list/")
+@app.route("/list/")
 def list_movies():
     cursor = mysql.connection.cursor()
     query_string = "SELEC * FROM movies_tbl"
@@ -25,7 +21,7 @@ def list_movies():
     cursor.close()
     return json.dumps(data)
 
-@app.route("/movies-table/")
+@app.route("/table/")
 def list_movie_table():
     cursor = mysql.connection.cursor()
     query_string = "SELEC * FROM movies_tbl"
