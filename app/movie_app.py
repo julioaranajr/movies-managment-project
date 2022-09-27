@@ -8,11 +8,11 @@ app = Flask("MovieApp")
 app.config["MYSQL_HOST"] = "127.0.0.1"
 app.config["MYSQL_USER"] = "root"
 app.config["MYSQL_PASSWORD"] = "my-secret-pw"
-app.config["MYSQL_DB"] = "data_movies_db"
+app.config["MYSQL_DB"] = "data_movies"
 
 mysql = MySQL(app)
 
-@app.route("/list/")
+@app.route("/movie-list/")
 def list_movies():
     cursor = mysql.connection.cursor()
     query_string = "SELECT * FROM movies_tbl"
@@ -21,7 +21,7 @@ def list_movies():
     cursor.close()
     return json.dumps(data)
 
-@app.route("/table/")
+@app.route("/movie-table/")
 def list_movie_table():
     cursor = mysql.connection.cursor()
     query_string = "SELECT * FROM movies_tbl"
@@ -29,8 +29,6 @@ def list_movie_table():
     data = cursor.fetchall()
     cursor.close()
     return render_template("movies.html.tpl", movies_data=data)
-
-
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1")
