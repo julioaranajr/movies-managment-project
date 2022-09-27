@@ -15,7 +15,7 @@ mysql = MySQL(app)
 @app.route("/list/")
 def list_movies():
     cursor = mysql.connection.cursor()
-    query_string = "SELEC * FROM movies_tbl"
+    query_string = "SELECT * FROM movies_tbl"
     cursor.execute(query_string)
     data = cursor.fetchall()
     cursor.close()
@@ -24,7 +24,7 @@ def list_movies():
 @app.route("/table/")
 def list_movie_table():
     cursor = mysql.connection.cursor()
-    query_string = "SELEC * FROM movies_tbl"
+    query_string = "SELECT * FROM movies_tbl"
     cursor.execute(query_string)
     data = cursor.fetchall()
     cursor.close()
