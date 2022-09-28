@@ -2,7 +2,6 @@ from flask import Flask
 from flask import render_template
 from flask import json
 from flask import Request, Response
-from flask_mysqldb import MySQL
 from werkzeug import Generate_password_hash, check_password_hash
 from werkzeug.wrappers import Request, Response
 
