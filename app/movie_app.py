@@ -20,7 +20,8 @@ app.config["MYSQL_DB"] = "data_movies"
 url_for('static', filename='style.css')
 
 @app.route("/")
-def 
+def index():
+    return render_template("index.html")
 
 @app.route("/list/")
 def movie_lis():
