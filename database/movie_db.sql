@@ -1,5 +1,5 @@
 #Create a new database 
-CREATE DATABASE data_movies?db;
+CREATE DATABASE data_movies.db;
 
 #Show all databases
 SHOW DATABASE;
@@ -149,9 +149,3 @@ INSERT INTO movie_actors_tbl VALUES
     (SELECT id FROM movies_tbl WHERE title like "Avatar"),
     (SELECT id FROM main_actors_tbl WHERE name like "%Sigourney Weaver%") 
 );  
-
-
-
-
-
-
