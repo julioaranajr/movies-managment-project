@@ -1,2 +1,2 @@
 # movies-managment-project
-Talent Academy Week 2 - Practice: Working with Databases
+Talent Academy Lab - Practice: Working with Databases
