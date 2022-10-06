@@ -1,11 +1,15 @@
-# movies-managment-project
-<<<<<<< HEAD
-Talent Academy Lab - Practice: Working with Databases
-=======
+# Movies Managment Project
+
+Talent Academy Lab - Practice:
+
 Talent Academy 
 Working with: 
+-Shell
+-Python
 -MySql
 -Flask
 -Jinja2 
+-Html
 -Docker
->>>>>>> 64441d97b168e0c2772e266847729d29f565d6c9
+-AWS Services
+-Terraform
