@@ -1,8 +1,8 @@
 # Movies Managment Project
 
-##Talent Academy Lab - Practice:
+## Talent Academy Lab - Practice:
 
-###Working with: 
+### Working with: 
 ```
 > - Shell
 > - Python
