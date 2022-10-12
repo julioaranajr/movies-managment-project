@@ -6,7 +6,8 @@
 
 - Create the tables:
   - directors.tbl
-  - actors.tbl
+  - movies.tbl
+  - 
   - main_actors.tbl
 
 Files with the SQL extension contain code written in the Structured Query Language. 
