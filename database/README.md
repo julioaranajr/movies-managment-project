@@ -32,3 +32,21 @@ List all movies with title and release year only:
 | The Dark Knight |         2008 |
 +-----------------+--------------+
 ```
+## Answer 
+To List all movies with title and release year only:
+```sh
+SELECT COUNT(*)
+FROM movies_tbl
+WHERE title LIKE "T%";
+
+SELECT *
+FROM movies_tbl
+ORDER BY release_year ASC;
+
+SELECT *
+FROM movies_tbl
+ORDER BY release_year DESC;
+
+SELECT title, release_year
+FROM movies_tbl;
+```
