@@ -1,4 +1,4 @@
-# Create a new database
+# Create MOVIE database
 CREATE DATABASE movie_db;
 
 # Show all databases
@@ -10,7 +10,7 @@ USE movie_db;
 # Show existing tables
 SHOW TABLES;
 
-# Create table directors
+# Create table DIRECTORS
 CREATE TABLE directors_tbl(
     id int NOT NULL AUTO_INCREMENT,
     name varchar(255),
@@ -18,8 +18,7 @@ CREATE TABLE directors_tbl(
     PRIMARY KEY (id)
 );
 
-# Get information about the table
-# DESCRIBE <Table_name>
+# Get information about the table DESCRIBE <Table_name>
 DESCRIBE directors_tbl;
 
 # Add a new entry to the table
