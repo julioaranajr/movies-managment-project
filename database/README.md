@@ -1,9 +1,19 @@
-# movie_managment_project
+# Database
 
-### Question 1
+## Exercises
+
+- Create the movie database movie.db
+
+- Create the tables:
+  - Directors
+  - Actors
+
+
+
+## Question 1
 List all movies with title and release year only:
 
-```sh
+```yaml
 +-----------------+--------------+
 | title           | release_year |
 +-----------------+--------------+
