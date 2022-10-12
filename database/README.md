@@ -7,10 +7,10 @@
 - Create the tables:
   - directors.tbl
   - movies.tbl
-  - 
   - main_actors.tbl
+  - movie_actors.tbl
 
-Files with the SQL extension contain code written in the Structured Query Language. 
+The Files with the SQL extension contain code written in the Structured Query Language. 
 The code contained in the SQL file is used to modify the content of other relational databases. 
 SQL files can be used to delete, insert, extract and update data and information.
 
