@@ -1,3 +1,7 @@
+# Files with the SQL extension contain code written in the Structured Query Language. 
+# The code contained in the SQL file is used to modify the content of other relational databases. 
+# SQL files can be used to delete, insert, extract and update data and information.
+```mysql
 DROP DATABASE IF EXISTS movie_db;
 
 # Create a new database
@@ -168,3 +172,4 @@ INSERT INTO movie_actors_tbl VALUES(
     (SELECT id FROM movies_tbl WHERE title LIKE "Cleopatra"),
     (SELECT id FROM main_actors_tbl WHERE name LIKE "Gal Gadot")
 );
+```
