@@ -1,9 +1,6 @@
 # Movies Managment Project
 
-## Talent Academy Lab - Practice:
-
-### Working with: 
-
+## Working with: 
 - Shell
 - Python
 - MySql
@@ -14,4 +11,3 @@
 - Docker
 - AWS Services
 - Terraform
-
